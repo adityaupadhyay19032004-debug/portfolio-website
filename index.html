@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aditya Pratap — Front-End Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Aditya Pratap — Front-End Developer, MCA Student, and Tech Enthusiast passionate about modern web development.">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9b1e7d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-left">
+      <h1 class="name">Aditya Pratap</h1>
+      <p class="tag">Front-End Developer | MCA Student | Tech Enthusiast</p>
+    </div>
+    <div class="nav-right">
+      <a class="btn" href="https://github.com/adityaupadhyay19032004-debug" target="_blank">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/aditya-pratap-b61731326/" target="_blank">LinkedIn</a>
+      <a class="btn primary" href="resumeaditya2.pdf" download>Resume</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-inner">
+      <img src="picc.png" alt="Aditya Pratap" class="profile-photo">
+      <h2>Hello 👋, I'm <span class="highlight">Aditya</span></h2>
+      <h3 class="typing" id="typing-text"></h3>
+      <p>
+        I craft elegant and responsive user interfaces using modern web technologies.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">🚀 See Projects</a>
+        <a class="btn" href="#contact">📩 Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <main class="container">
+    <section id="about" class="card fade-in">
+      <h3>About Me</h3>
+      <p>
+        I'm an MCA student specializing in front-end web development and passionate about combining creativity with logic to build digital experiences. I love exploring AI-integrated front-end solutions like TensorFlow.js.
+      </p>
+      <ul class="skills">
+        <li>💻 HTML5 • CSS3 • JavaScript</li>
+        <li>🎨 Responsive Design • DOM Manipulation</li>
+        <li>🧠 Python • MySQL • TensorFlow.js</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card fade-in">
+      <h3>Projects</h3>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>🧠 Real-Time Object Detection</h4>
+          <p>Implemented browser-based real-time object detection using TensorFlow.js and webcam input.</p>
+          <div class="project-links">
+            <a href="https://github.com/adityapratap796/object-detection" target="_blank"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h4>🛍️ Amazon Clone</h4>
+          <p>A responsive e-commerce UI with product listing and cart features built using vanilla JavaScript.</p>
+          <div class="project-links">
+            <a href="https://github.com/adityapratap796/amazon-clone" target="_blank"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h4>🌾 Kissan Sathi</h4>
+          <p>A SSR-based platform helping farmers connect and exchange local goods, services, and knowledge.</p>
+          <div class="project-links">
+            <a href="https://github.com/adityapratap796/kissan-sathi" target="_blank"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card fade-in">
+      <h3>Contact</h3>
+      <p>📧 <a href="mailto:adityapratap796@gmail.com">adityapratap796@gmail.com</a></p>
+      <p>🔗 <a href="https://github.com/adityapratap796" target="_blank">github.com/adityapratap796</a></p>
+      <p>📍 India</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="socials">
+      <a href="https://github.com/adityapratap796" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/aditya-pratap-b61731326/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:adityapratap796@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; <span id="year"></span> Aditya Pratap — Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
